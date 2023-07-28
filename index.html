@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.index.css">
+    <script src="./index.js" defer></script>
+    <title>Acasa</title>
+</head>
+ <body>
+
+    <h1>Employee List</h1>
+    <form class="search-form" id="searchForm">
+     <input 
+        type="text" 
+        id="searchKeyword" 
+        placeholder="Search keyword"
+     >
+        <select id="searchProperty">
+            <option value="id">ID</option>
+            <option value="name">Name</option>
+            <option value="jobTitle">Job Title</option>
+        </select>
+        <button type="submit">Search</button>
+    </form>
+    <table border="2" cellpadding="20" border-color="black">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Job Title</th>
+                <th>Project</th>
+            </tr>
+        </thead>
+        <tbody id="employeeTableBody">
+        </tbody>
+    </table>
+    <form class="add-employee-form" id="addEmployeeForm">
+        <input 
+        type="text" 
+        id="firstNameInput" 
+        placeholder="First name" 
+        required >
+        <input 
+        type="text" 
+        id="lastNameInput" 
+        placeholder="Last name" 
+        required >
+        <input 
+        type="text" 
+        id="jobTitleInput" 
+        placeholder="Job Title" 
+        required >
+        <input 
+        type="text" 
+        id="salaryInput" 
+        placeholder="Salary" 
+        required >
+        <input 
+        type="text" 
+        id="hireDateInput" 
+        placeholder="Data" >
+        <input 
+        type="text" 
+        id="emailInput" 
+        placeholder="Email" 
+        required >
+        <input 
+        type="text" 
+        id="projectInput" 
+        placeholder="Project ID" >
+        <button type="submit" id="addEmployeeBtn">Add Empoyee</button>
+        <button type="button" id="removeEmployeeBtn">Remove Employee</button>
+    </form>
+ </body>
+</html>

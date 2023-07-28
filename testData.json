@@ -1,0 +1,20 @@
+[ 
+    {
+    "id": "1",
+    "firstName": "Monica",
+    "lastName": "Flavius ",
+    "jobTitle": "Marketing",
+    "image": "https://i.pravatar.cc/300",
+    "project": "SEO",
+    "description": "Lorem ipsum dolor sit amet"
+  },
+  {
+    "id": "2",
+    "firstName": "Cezar",
+    "lastName": "Ionel",
+    "jobTitle": "IT",
+    "image": "https://i.pravatar.cc/300",
+    "project": "Software development",
+    "description": "Lorem ipsum dolor sit amet"
+  }
+]
